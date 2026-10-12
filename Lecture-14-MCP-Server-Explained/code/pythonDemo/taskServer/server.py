@@ -5,7 +5,7 @@ from pydantic import Field
 
 mcp = MCPServer("task-mcp-server")
 tasks: list[str] = []
-
+ 
 
 @mcp.tool(name="create_task", description="Create a new task")
 def create_task(
