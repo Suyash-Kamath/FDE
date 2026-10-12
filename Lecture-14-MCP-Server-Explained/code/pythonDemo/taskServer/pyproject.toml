@@ -1,0 +1,7 @@
+[project]
+name = "task-server"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp==2.2.0",
+]

@@ -1,0 +1,10 @@
+[project]
+name = "task-client"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi==0.142.2",
+    "openai-agents==0.22.3",
+    "python-dotenv==1.2.4",
+    "uvicorn==0.54.0",
+]
