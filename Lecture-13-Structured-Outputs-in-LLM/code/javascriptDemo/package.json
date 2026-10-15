@@ -1,0 +1,20 @@
+{
+  "name": "lecture-13-structured-outputs-javascript-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lecture 13: Structured outputs from an LLM (JavaScript port of pythonCode)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node demoApplication.js",
+    "second:v1": "node secondVersion/demoApplication.js --version 1",
+    "second:v2": "node secondVersion/demoApplication.js --version 2"
+  },
+  "dependencies": {
+    "dotenv": "18.0.8",
+    "openai": "7.34.0",
+    "zod": "4.6.7"
+  }
+}

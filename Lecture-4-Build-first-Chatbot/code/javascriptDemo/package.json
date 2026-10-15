@@ -1,0 +1,17 @@
+{
+  "name": "tomato-chatbot-javascript-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lecture 4 - Build your first chatbot (JavaScript port)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "18.0.8",
+    "openai": "7.34.0"
+  }
+}

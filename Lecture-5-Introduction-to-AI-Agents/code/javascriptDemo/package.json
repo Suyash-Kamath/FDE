@@ -1,0 +1,19 @@
+{
+  "name": "lecture-5-introduction-to-ai-agents-javascript-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lecture 5: Introduction to AI agents (JavaScript port of pythonDemo + goDemo)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "sdk": "node mainUsingSdk.js",
+    "without-sdk": "node mainWithoutUsingSdk.js"
+  },
+  "dependencies": {
+    "dotenv": "18.0.8",
+    "openai": "7.34.0"
+  }
+}

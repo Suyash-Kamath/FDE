@@ -1,0 +1,34 @@
+{
+  "name": "lecture-11-rag-javascript-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JavaScript port of the Lecture 11 RAG demos (OpenAI + Pinecone, in-memory RAG, LangChain JS + Gemini).",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "ingest": "node main.js ingest",
+    "chat": "node main.js chat",
+    "without-vectordb": "node mainWithoutVectordb.js",
+    "guruji": "node code-from-guruji/main.js",
+    "guruji:server": "node code-from-guruji/server.js",
+    "langchain:index": "node using-langchain/index.js",
+    "langchain:query": "node using-langchain/query.js",
+    "go-port:index": "node from-go/main.js index",
+    "go-port:chat": "node from-go/main.js chat"
+  },
+  "dependencies": {
+    "@google/genai": "2.30.0",
+    "@langchain/core": "1.2.17",
+    "@langchain/google-genai": "2.3.2",
+    "@langchain/pinecone": "1.0.3",
+    "@langchain/textsplitters": "1.0.2",
+    "@pinecone-database/pinecone": "5.1.2",
+    "dotenv": "16.6.1",
+    "express": "5.3.0",
+    "js-tiktoken": "1.0.21",
+    "openai": "7.34.0",
+    "pdf-parse": "2.4.5"
+  }
+}

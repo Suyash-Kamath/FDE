@@ -1,0 +1,23 @@
+{
+  "name": "lecture-16-vision-chat-javascript-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lecture 16 - How AI understands images: vision chat demo (JavaScript port of pythonDemo)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "18.0.8",
+    "express": "5.3.0",
+    "multer": "2.4.0",
+    "openai": "7.34.0"
+  },
+  "devDependencies": {
+    "supertest": "7.3.1"
+  }
+}
