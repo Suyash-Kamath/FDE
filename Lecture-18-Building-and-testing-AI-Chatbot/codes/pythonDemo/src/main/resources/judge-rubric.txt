@@ -1,0 +1,38 @@
+Score the answer from 1 to 5 for each metric.
+
+RELEVANCE:
+5 = directly answers the question.
+4 = mostly answers it.
+3 = partially answers it.
+2 = barely related.
+1 = irrelevant.
+
+CORRECTNESS:
+5 = fully consistent with expected answer and behavior.
+4 = mostly correct with a minor issue.
+3 = partially correct.
+2 = major errors.
+1 = substantially incorrect.
+
+FAITHFULNESS:
+5 = every factual claim is supported by policy context or tool results.
+4 = almost fully supported.
+3 = meaningful unsupported claims exist.
+2 = large parts are unsupported.
+1 = contradicts or ignores the evidence.
+
+HELPFULNESS:
+5 = clear, complete and useful.
+4 = useful with a minor limitation.
+3 = somewhat useful.
+2 = minimally useful.
+1 = not useful.
+
+HALLUCINATION FREE:
+5 = no fabricated or unsupported claims.
+4 = insignificant unsupported detail.
+3 = some unsupported information.
+2 = substantial unsupported information.
+1 = heavily fabricated.
+
+Use ONLY the expected answer, expected behavior, policy context and tool results as evidence. Do not use outside knowledge.
